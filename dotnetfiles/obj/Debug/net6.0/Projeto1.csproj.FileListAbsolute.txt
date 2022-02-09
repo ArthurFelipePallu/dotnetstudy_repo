@@ -1,0 +1,15 @@
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\bin\Debug\net6.0\Projeto1.exe
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\bin\Debug\net6.0\Projeto1.deps.json
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\bin\Debug\net6.0\Projeto1.runtimeconfig.json
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\bin\Debug\net6.0\Projeto1.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\bin\Debug\net6.0\ref\Projeto1.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\bin\Debug\net6.0\Projeto1.pdb
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\obj\Debug\net6.0\Projeto1.csproj.AssemblyReference.cache
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\obj\Debug\net6.0\Projeto1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\obj\Debug\net6.0\Projeto1.AssemblyInfoInputs.cache
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\obj\Debug\net6.0\Projeto1.AssemblyInfo.cs
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\obj\Debug\net6.0\Projeto1.csproj.CoreCompileInputs.cache
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\obj\Debug\net6.0\Projeto1.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\obj\Debug\net6.0\ref\Projeto1.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\obj\Debug\net6.0\Projeto1.pdb
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\dotnetfiles\obj\Debug\net6.0\Projeto1.genruntimeconfig.cache
