@@ -6,9 +6,8 @@ using CleanArchMvc.Domain.Validation;
 
 namespace CleanArchMvc.Domain.Entities
 {
-    public sealed class Category
+    public sealed class Category : Entity
     {
-        public int Id { get; private set; }
         public string Name { get;private set; }
         public ICollection<Product> Products {get;set;}
 
@@ -18,7 +17,10 @@ namespace CleanArchMvc.Domain.Entities
         }
         public Category(int id,string name){
             DomainExceptionValidation.When(id<0,"Invalid Id Value");
-            Id = i d;
+            Id = id;
+            ValidateDomain(name);
+        }
+        public void Update(string name) {
             ValidateDomain(name);
         }
 
