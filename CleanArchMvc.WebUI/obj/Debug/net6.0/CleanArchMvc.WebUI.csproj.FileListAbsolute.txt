@@ -24,3 +24,12 @@ C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.Web
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\obj\Debug\net6.0\ref\CleanArchMvc.WebUI.dll
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\obj\Debug\net6.0\CleanArchMvc.WebUI.pdb
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\obj\Debug\net6.0\CleanArchMvc.WebUI.genruntimeconfig.cache
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\CleanArchMvc.Application.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\CleanArchMvc.Domain.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\CleanArchMvc.Infra.Data.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\CleanArchMvc.Infra.IoC.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\CleanArchMvc.Infra.IoC.pdb
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\CleanArchMvc.Application.pdb
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\CleanArchMvc.Domain.pdb
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\CleanArchMvc.Infra.Data.pdb
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\obj\Debug\net6.0\CleanArchMvc.WebUI.csproj.CopyComplete

@@ -10,3 +10,6 @@ C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.App
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.dll
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.Application\obj\Debug\net6.0\ref\CleanArchMvc.Application.dll
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.pdb
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.Application\bin\Debug\net6.0\CleanArchMvc.Domain.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.Application\bin\Debug\net6.0\CleanArchMvc.Domain.pdb
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.csproj.CopyComplete
