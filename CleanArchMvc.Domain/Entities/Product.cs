@@ -30,15 +30,15 @@ namespace CleanArchMvc.Domain.Entities
         }
 
         private void ValidateDomain(string name,string desc,decimal preco,int stock,string img){
-            DomainExceptionValidation.When(string.IsNullOrEmpty(name) && name.Length<3,"Invalid product name, name is null or too short");
+            DomainExceptionValidation.When(string.IsNullOrEmpty(name) || name.Length<3,"Invalid product name, name is null,empty or too short");
             Name=name;
-            DomainExceptionValidation.When(string.IsNullOrEmpty(desc) && desc.Length<5,"Invalid product description, description is null or too short");
+            DomainExceptionValidation.When(string.IsNullOrEmpty(desc) || desc.Length<5,"Invalid product description, description is null, empty or too short");
             Description=desc;
             DomainExceptionValidation.When(preco<0,"Invalid product price, product price can't be negative");
             Price=preco;
             DomainExceptionValidation.When(stock<0,"Invalid product stock, product stock can't be negative");
             Name=name;
-            DomainExceptionValidation.When( img.Length>250,"Invalid image name, too long , maximum 250 characters");
+            DomainExceptionValidation.When(img?.Length>250,"Invalid image name, too long , maximum 250 characters");
             Image=img;
         }
 
