@@ -21,7 +21,9 @@ public class CategoryUnitTest1
    public void CreateCategory_NegativeIdValue_DomainExceptionInvalidId()
    {
         Action action = () => new Category(-1,"Category Name");
-        action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>().WithMessage("Invalid Id Value");
+        action.Should()
+                    .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
+                    .WithMessage("Invalid Id Value");
    }
 
 }
