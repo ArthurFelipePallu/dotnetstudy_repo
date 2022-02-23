@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VJeEVhmIjWqIkaRNtis3SyarumdBT+3ALlLKau6ZVxtd7zRMOa86yyJN2uOKnODCh/u1wSuK1EtjOyW4lvvMFA==",
+  "dgSpecHash": "8bsWcRyvA0/HS8kv6uxZWBu6ANXOVdoCOSxba5njdQirfuBrjjjF8IzbND8z9Xck4YJW3B6FI2LsZkJ9czBKrw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
+  "projectFilePath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
