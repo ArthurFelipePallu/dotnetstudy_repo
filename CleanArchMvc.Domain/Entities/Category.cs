@@ -29,6 +29,7 @@ namespace CleanArchMvc.Domain.Entities
             DomainExceptionValidation.When(name.Length<3,"Invalid name, too short , minimum 3 characters");
             DomainExceptionValidation.When(name.Length>50,"Invalid name, too long , maximum 50 characters");
             Name = name;
+
         }
 
     }

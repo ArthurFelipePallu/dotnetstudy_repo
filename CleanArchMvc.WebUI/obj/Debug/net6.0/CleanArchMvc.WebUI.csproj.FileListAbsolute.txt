@@ -65,3 +65,10 @@ C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.Web
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\obj\Debug\net6.0\ref\CleanArchMvc.WebUI.dll
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\obj\Debug\net6.0\CleanArchMvc.WebUI.pdb
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\obj\Debug\net6.0\CleanArchMvc.WebUI.genruntimeconfig.cache
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\FluentMigrator.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\FluentMigrator.Abstractions.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\dotnet-ef.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\de-DE\FluentMigrator.Abstractions.resources.dll

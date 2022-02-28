@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj": {}
+    "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUi\\CleanArchMvc.WebUI.csproj": {}
   },
   "projects": {
     "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj": {
@@ -150,9 +150,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
-              "suppressParent": "All",
+              "suppressParent": "None",
               "target": "Package",
               "version": "[6.0.2, )"
             },
@@ -165,6 +169,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             }
           },
           "imports": [
@@ -248,14 +256,14 @@
         }
       }
     },
-    "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj": {
+    "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUi\\CleanArchMvc.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUi\\CleanArchMvc.WebUI.csproj",
         "projectName": "CleanArchMvc.WebUI",
-        "projectPath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj",
+        "projectPath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUi\\CleanArchMvc.WebUI.csproj",
         "packagesPath": "C:\\Users\\Arthut Pallu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\obj\\",
+        "outputPath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arthut Pallu\\AppData\\Roaming\\NuGet\\NuGet.Config"
