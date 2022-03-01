@@ -15,7 +15,7 @@ namespace CleanArchMvc.WebUI
 
         public void ConfigureServices(IServiceCollection services)
         {
-        //     services.AddAutoMapper(typeof(arquivos_mapeamento));
+     
         }
 
         public void Configure(IApplicationBuilder app,IWebHostEnvironment environment)
