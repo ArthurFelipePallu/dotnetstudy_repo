@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "W0jIFEYHjyF1eI7SDwc5p84q8pgnPViijodMKawgyK3hMup5QB47wPfdjGxxZKreMk3NUcl+9VfroXZBh8pJcQ==",
+  "dgSpecHash": "5VFQ6lJ4m6N5XY1K2B7sr6Z2EMdEEas2Zm9HzG3arc5qnwGpEDJNz/UgGhlPvHHTz2U8sQ8XjtfD5DRz8ul8UQ==",
   "success": true,
   "projectFilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Arthut Pallu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\fluentmigrator\\3.3.2\\fluentmigrator.3.3.2.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\fluentmigrator.abstractions\\3.3.2\\fluentmigrator.abstractions.3.3.2.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

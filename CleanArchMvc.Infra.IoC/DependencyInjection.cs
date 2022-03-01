@@ -8,6 +8,9 @@ using CleanArchMvc.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using CleanArchMvc.Domain.Interfaces;
 using CleanArchMvc.Infra.Data.Repositories;
+using CleanArchMvc.Application.Interfaces;
+using CleanArchMvc.Application.Services;
+using CleanArchMvc.Application.Mappings;
 
 namespace CleanArchMvc.Infra.IoC
 {
@@ -26,6 +29,9 @@ namespace CleanArchMvc.Infra.IoC
             //services.AddSingleton();   Adciona o serviço apenas na primeira vez que for solicitado
             services.AddScoped<ICategoryRepository,CategoryRepository>();
             services.AddScoped<IProductRepository,ProductRepository>();
+            services.AddScoped<IProductService,ProductService>();
+            services.AddScoped<ICategoryService,CategoryService>();
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             return services;
         }
