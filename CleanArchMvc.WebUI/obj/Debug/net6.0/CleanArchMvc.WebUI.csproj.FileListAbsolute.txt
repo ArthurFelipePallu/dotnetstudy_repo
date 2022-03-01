@@ -72,3 +72,5 @@ C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.Web
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\dotnet-ef.dll
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUi\bin\Debug\net6.0\de-DE\FluentMigrator.Abstractions.resources.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

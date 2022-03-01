@@ -4,9 +4,9 @@ namespace CleanArchMvc.Application.DTOs
 {
     public class CategoryDTO
     {
-        public int Id{get;set;}[
+        public int Id{get;set;}
 
-        ]
+        
         [Required(ErrorMessage = "The Name Is Required")]
         [MinLength(3)]
         [MaxLength(100)]

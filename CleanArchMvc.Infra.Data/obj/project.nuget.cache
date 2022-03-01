@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUxQ5724PyozrFIWFnbFnVq6HDSePHn9gWMLcjSwc8H2xtDCX0TuLKSVmjwKbDdfyh5+f5Ae1saX7uhLG3efDQ==",
+  "dgSpecHash": "bel3XXX0KN73y+YyiNOO2R+8o6x9B2lDVd0aKgDBnOICJlsNl7ZDNyViLhIuyXUFv1yL/L/hnLFWIFIdqFBb8Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
+  "projectFilePath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\fluentmigrator\\3.3.2\\fluentmigrator.3.3.2.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\fluentmigrator.abstractions\\3.3.2\\fluentmigrator.abstractions.3.3.2.nupkg.sha512",

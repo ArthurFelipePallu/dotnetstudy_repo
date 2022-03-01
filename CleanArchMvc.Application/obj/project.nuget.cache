@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5rrJOpsAzvvkAJriHkGOiBxwjQUr9Eo6zcH3nji99us/Bcu9r3+X3g3dOs1wsp78CcL4nBis2Aj3jp+uvriwDg==",
+  "dgSpecHash": "8AnVE6Op7u4naUkjtuLwv4DOdPolZUJquIlmDWxZ0qdwLHx0mq2aAuzxcxpH+K9OL5/0u4x5yB1oX79gRPq3Tw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
+  "projectFilePath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
