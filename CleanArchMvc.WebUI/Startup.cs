@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CleanArchMvc.Infra.IoC;
 
 namespace CleanArchMvc.WebUI
 {
@@ -15,7 +16,7 @@ namespace CleanArchMvc.WebUI
 
         public void ConfigureServices(IServiceCollection services)
         {
-     
+            services.AddInfrastructure(Configuration);
         }
 
         public void Configure(IApplicationBuilder app,IWebHostEnvironment environment)

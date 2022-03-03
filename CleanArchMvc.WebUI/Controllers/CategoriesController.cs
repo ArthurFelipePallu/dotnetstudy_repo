@@ -12,7 +12,7 @@ namespace CleanArchMvc.WebUI.Controllers
     [Route("[controller]")]
     public class CategoriesController : Controller
     {
-        private readonly ILogger<CategoriesController> _logger;
+        //private readonly ILogger<CategoriesController> _logger;
 
         private readonly ICategoryService _categoryService;
         public CategoriesController(ICategoryService service)

@@ -6,6 +6,7 @@ var startup = new Startup(builder.Configuration);
 startup.ConfigureServices(builder.Services);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -29,6 +30,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Products}/{action=Index}/{id?}");
+    pattern: "{controller=Categories}/{action=Index}/{id?}");
 
 app.Run();
