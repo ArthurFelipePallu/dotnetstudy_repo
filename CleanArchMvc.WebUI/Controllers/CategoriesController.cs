@@ -19,10 +19,10 @@ namespace CleanArchMvc.WebUI.Controllers
         {
             _categoryService = service;
         }
-        public CategoriesController(ILogger<CategoriesController> logger)
-        {
-            _logger = logger;
-        }
+        // public CategoriesController(ILogger<CategoriesController> logger)
+        // {
+        //     _logger = logger;
+        // }
 
         [HttpGet]
         public async Task<IActionResult> Index()

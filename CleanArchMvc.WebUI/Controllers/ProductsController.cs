@@ -19,10 +19,10 @@ namespace CleanArchMvc.WebUI.Controllers
         {
             _productService = service;
         }
-        public ProductsController(ILogger<ProductsController> logger)
-        {
-            _logger = logger;
-        }
+        // public ProductsController(ILogger<ProductsController> logger)
+        // {
+        //     _logger = logger;
+        // }
 
         [HttpGet]
         public async Task<IActionResult> Index()

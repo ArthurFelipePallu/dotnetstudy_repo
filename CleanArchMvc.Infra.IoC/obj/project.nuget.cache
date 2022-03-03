@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mqqry37d+0FlWoBIZWFjWKaIG3cPzETJRgEYJhRCJqbDwWv+qPxhwnmdiKyn6xukyml1clak2P+mXEV3kinSJQ==",
+  "dgSpecHash": "PFfUZpC+LAzZ+Qi989O29b4tdiEiOClf6o5qzKutGnPdtt3qU0qPzqJa0kWKsTxfNYPWpnhwpWB0wuDEVhTv6Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
+  "projectFilePath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
