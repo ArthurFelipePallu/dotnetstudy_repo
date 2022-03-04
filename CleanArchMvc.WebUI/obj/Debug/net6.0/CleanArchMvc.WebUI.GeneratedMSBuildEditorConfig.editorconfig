@@ -15,12 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Arthut Pallu\Documents\Estudos\DotNet\dotnetstudy_repo\CleanArchMvc.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Arthut Pallu/Documents/Estudos/DotNet/dotnetstudy_repo/CleanArchMvc.WebUI/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Arthut Pallu/Documents/Estudos/DotNet/dotnetstudy_repo/CleanArchMvc.WebUI/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Arthut Pallu/Documents/Estudos/DotNet/dotnetstudy_repo/CleanArchMvc.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Arthut Pallu/Documents/Estudos/DotNet/dotnetstudy_repo/CleanArchMvc.WebUI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Arthut Pallu/Documents/Estudos/DotNet/dotnetstudy_repo/CleanArchMvc.WebUI/Views/Products/Index.cshtml]
