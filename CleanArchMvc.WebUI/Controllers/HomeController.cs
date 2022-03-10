@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
-    [Route("Home")]
+    //[Route("Home")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -12,16 +12,16 @@ namespace CleanArchMvc.WebUI.Controllers
             _logger = logger;
         }
  
-        [Route("Index")]
+        //[Route("Index")]
         public IActionResult Index()
         {
-            return View("Index");
+            return View();
         }
          
-        [Route("Privacy")]
+        //[Route("Privacy")]
         public IActionResult Privacy()
         {
-            return View("Privacy");
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

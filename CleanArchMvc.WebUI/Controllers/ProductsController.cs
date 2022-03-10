@@ -12,7 +12,7 @@ namespace CleanArchMvc.WebUI.Controllers
     [Route("[controller]")]
     public class ProductsController : Controller
     {
-        private readonly ILogger<ProductsController> _logger;
+       // private readonly ILogger<ProductsController> _logger;
 
         private readonly IProductService _productService;
         public ProductsController(IProductService service)

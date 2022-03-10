@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
-    [Route("Categories")]
+    //[Route("Categories")]
     public class CategoriesController : Controller
     {
         //private readonly ILogger<CategoriesController> _logger;
@@ -25,7 +25,7 @@ namespace CleanArchMvc.WebUI.Controllers
         //     _logger = logger;
         // }
 
-        [Route("Index")]
+        //[Route("Index")]
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -33,7 +33,7 @@ namespace CleanArchMvc.WebUI.Controllers
             return View(categories);
         }
 
-        [Route("Create")]
+        //[Route("Create")]
         [HttpGet()]
         public IActionResult Create() {
             return View();
