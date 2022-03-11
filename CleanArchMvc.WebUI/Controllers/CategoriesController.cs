@@ -73,6 +73,22 @@ namespace CleanArchMvc.WebUI.Controllers
             return View(categorydto);
         }
 
+        [HttpGet()]
+        public async Task<IActionResult> Delete(int? id) {
+            if(id==null)return NotFound();
+            var categorydto = await _categoryService.GetById(id);
+            if(categorydto==null) return NotFound();
+            return View(categorydto);
+        }
+        //Não é possivel criar outra função com nome Delete e mesmos parametros 
+        //precisa colocar  ActionName("Delete") para configurar o nome da action para Delete
+        //Permite especificar um nome da action diferente do nome do metodo
+        [HttpPost(),ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(int id) {
+            await _categoryService.Remove(id);
+            return RedirectToAction("Index");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
