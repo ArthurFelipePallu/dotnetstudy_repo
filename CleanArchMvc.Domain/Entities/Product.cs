@@ -33,7 +33,7 @@ namespace CleanArchMvc.Domain.Entities
             CategoryId=categoryid;
         }
 
-        private void ValidateDomain(string name,string desc,decimal preco,int stock,string img){
+        private void ValidateDomain(string name,string desc,decimal preco,int stock,string img ){
             DomainExceptionValidation.When(string.IsNullOrEmpty(name) || name.Length<3,"Invalid product name, name is null,empty or too short");
             
             DomainExceptionValidation.When(string.IsNullOrEmpty(desc) || desc.Length<5,"Invalid product description, description is null, empty or too short");
@@ -43,6 +43,8 @@ namespace CleanArchMvc.Domain.Entities
             DomainExceptionValidation.When(stock<0,"Invalid product stock, product stock can't be negative");
             
             DomainExceptionValidation.When(img?.Length>250,"Invalid image name, too long , maximum 250 characters");
+
+
             Name=name;
             Description=desc;
             Price=preco;

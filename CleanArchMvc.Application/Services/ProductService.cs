@@ -17,6 +17,13 @@ namespace CleanArchMvc.Application.Services
             _mapper = mapper;
         }
 
+        // public ProductService(IMapper mapper , IProductRepository repository)
+        // {
+        //     _mapper = mapper;
+        //     _productRepository=repository ?? throw new ArgumentException(nameof(repository));
+        // }
+
+
         public async Task<IEnumerable<ProductDTO>> GetProducts()
         {
             var productsQuery  = new GetProductsQuery();

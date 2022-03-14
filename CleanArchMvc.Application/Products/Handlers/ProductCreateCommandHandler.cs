@@ -23,7 +23,7 @@ namespace CleanArchMvc.Application.Products.Handlers
 
             if(product==null)
             {
-                throw new ApplicationException($"Error  creating entity");
+                throw new ApplicationException($"Error creating entity");
             }
             else
             {

@@ -6,19 +6,22 @@ using System.Threading.Tasks;
 using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
-    [Route("[controller]")]
+    //[Route("[controller]")]
     public class ProductsController : Controller
     {
        // private readonly ILogger<ProductsController> _logger;
 
         private readonly IProductService _productService;
-        public ProductsController(IProductService service)
+        private readonly ICategoryService _categoryService;
+        public ProductsController(IProductService productservice,ICategoryService categoryservice)
         {
-            _productService = service;
+            _productService = productservice;
+            _categoryService = categoryservice;
         }
         // public ProductsController(ILogger<ProductsController> logger)
         // {
@@ -33,7 +36,9 @@ namespace CleanArchMvc.WebUI.Controllers
         }
 
         [HttpGet()]
-        public IActionResult Create() {
+        public async Task<IActionResult> Create() 
+        {
+            ViewBag.CategoryId = new SelectList(await _categoryService.GetCategories(), "Id","Name");
             return View();
         }
         [HttpPost]
@@ -43,6 +48,10 @@ namespace CleanArchMvc.WebUI.Controllers
             {
                 await _productService.Add(productdto);
                 return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                ViewBag.CategoryId = new SelectList(await _categoryService.GetCategories(), "Id","Name");
             }
             return View(productdto);
         }
