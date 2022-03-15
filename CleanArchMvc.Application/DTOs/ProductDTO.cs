@@ -8,7 +8,7 @@ namespace CleanArchMvc.Application.DTOs
     public class ProductDTO
     {
 
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
 
 
         public int Id{get;set;}
