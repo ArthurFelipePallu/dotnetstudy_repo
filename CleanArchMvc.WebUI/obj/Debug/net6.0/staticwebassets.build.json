@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LPcEPa6+fPj7uEmunIzPvcikMaw7VdK7vPnQCLAZ/pg=",
+  "Hash": "IzqGOFVKFMeJLUB/qG5lQKn5/T9R/X7ia34qQL/+DYo=",
   "Source": "CleanArchMvc.WebUI",
   "BasePath": "_content/CleanArchMvc.WebUI",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\wwwroot\\images\\catalogo1.png",
+      "SourceId": "CleanArchMvc.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\wwwroot\\",
+      "BasePath": "_content/CleanArchMvc.WebUI",
+      "RelativePath": "images/catalogo1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\catalogo1.png"
     },
     {
       "Identity": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\wwwroot\\js\\site.js",

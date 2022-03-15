@@ -92,13 +92,13 @@ namespace CleanArchMvc.WebUI.Controllers
             return RedirectToAction("Index");
         }
 
-        // [HttpGet()]
-        // public async Task<IActionResult> Details(int? id) {
-        //     if(id == null) return NotFound();
-        //     var productdto = await _productService.GetById(id);
-        //     if(productdto==null) return NotFound();
-        //     return View(productdto);
-        // }
+        [HttpGet()]
+        public async Task<IActionResult> Details(int? id) {
+            if(id == null) return NotFound();
+            var productdto = await _productService.GetById(id);
+            if(productdto==null) return NotFound();
+            return View(productdto);
+        }
 
 
 
