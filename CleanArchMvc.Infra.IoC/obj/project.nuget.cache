@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aLltvxjupwmzqqW8hRKURDxxbR96CX1jOgbJcBCma5Cw72rjWN80w8FDJPK0DGE6dQePAUl4N2R8k2YAHCEELQ==",
+  "dgSpecHash": "QQkrXTdcMCQB8d8Dg3L+m9yGRxIYPwwvuRXA9OQZHkvg8O1W4iNqh76uLm2tub9AcScWrC6/x5bnEQ86ltfoBQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
+  "projectFilePath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -35,9 +35,9 @@
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.3\\microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.3\\microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
-    "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.2\\microsoft.entityframeworkcore.design.6.0.2.nupkg.sha512",
+    "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.3\\microsoft.entityframeworkcore.design.6.0.3.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.3\\microsoft.entityframeworkcore.relational.6.0.3.nupkg.sha512",
-    "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.2\\microsoft.entityframeworkcore.sqlserver.6.0.2.nupkg.sha512",
+    "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.3\\microsoft.entityframeworkcore.sqlserver.6.0.3.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.entityframeworkcore.tools.dotnet\\2.0.3\\microsoft.entityframeworkcore.tools.dotnet.2.0.3.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Arthut Pallu\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",

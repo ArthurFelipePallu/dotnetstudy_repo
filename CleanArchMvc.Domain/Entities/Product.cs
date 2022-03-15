@@ -17,7 +17,7 @@ namespace CleanArchMvc.Domain.Entities
         public string Image { get; private set; }
 
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
 
         public Product(string name,string description,decimal price,int stock,string image){
             ValidateDomain(name,description,price,stock,image);

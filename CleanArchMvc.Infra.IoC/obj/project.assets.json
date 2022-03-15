@@ -431,11 +431,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/6.0.2": {
+      "Microsoft.EntityFrameworkCore.Design/6.0.3": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.8.26",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.2"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.3"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -460,11 +460,11 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.2": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.2"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.3"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -1999,8 +1999,8 @@
           "FluentMigrator": "3.3.2",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.3",
-          "Microsoft.EntityFrameworkCore.Design": "6.0.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3",
           "Microsoft.EntityFrameworkCore.Tools.DotNet": "2.0.3"
         },
         "compile": {
@@ -2570,10 +2570,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/6.0.2": {
-      "sha512": "U5nqbIKJ8LQF/T1BzMjL35mwhTPsEUsjLhX+GjPQcrKaavv6oczCdznhr7VbEmCmGSjQjSarNqXkSCneUX2mXA==",
+    "Microsoft.EntityFrameworkCore.Design/6.0.3": {
+      "sha512": "Gc3XhQ4vLK4rlGpZi8zaa4bl0t894QxqMXHSbDSsx8d7ghRaLbGIH1tQawpo2hriU/q918eepbCyoISD89Xx1w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/6.0.2",
+      "path": "microsoft.entityframeworkcore.design/6.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2581,7 +2581,7 @@
         "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.6.0.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.6.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -2599,17 +2599,17 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.2": {
-      "sha512": "ghYelO6ipPSnW06rmj4HDhvOZX1of3tNZoDuc4RUC/yT9vdg24Fq0iamJiQSFYHskePkHvhABdrTVuyxPVGN7w==",
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.3": {
+      "sha512": "rd1lGh5au10tB6J0Jt3ZLLA78Bs/eQSWgkMSBE9n+cRAs/Db99OfdnxgkK3JqCCyFfp12LAsboWDUCnRhPOskw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.2",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.6.0.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.6.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -6868,11 +6868,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
+      "projectUniqueName": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
       "projectName": "CleanArchMvc.Infra.IoC",
-      "projectPath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
+      "projectPath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
       "packagesPath": "C:\\Users\\Arthut Pallu\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\obj\\",
+      "outputPath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Arthut Pallu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6887,14 +6887,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj": {
-              "projectPath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj"
+            "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj": {
+              "projectPath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj"
             },
-            "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
-              "projectPath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
+            "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
+              "projectPath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
             },
-            "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj": {
-              "projectPath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj"
+            "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj"
             }
           }
         }

@@ -44,7 +44,7 @@ namespace CleanArchMvc.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(ProductDTO productdto)
         {
-            if(ModelState.IsValid || (!ModelState.IsValid&&productdto.Category==null ))
+            if(ModelState.IsValid )
             {
                 await _productService.Add(productdto);
                 return RedirectToAction(nameof(Index));
@@ -66,7 +66,7 @@ namespace CleanArchMvc.WebUI.Controllers
         [HttpPost()]
         public async Task<IActionResult> Edit(ProductDTO productdto)
         {
-            if(ModelState.IsValid || (!ModelState.IsValid&&productdto.Category==null ))
+            if(ModelState.IsValid )
             {
                 await _productService.Update(productdto);
                 return RedirectToAction(nameof(Index));
