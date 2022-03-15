@@ -44,7 +44,7 @@ namespace CleanArchMvc.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(ProductDTO productdto)
         {
-            if(ModelState.IsValid)
+            if(ModelState.IsValid || (!ModelState.IsValid&&productdto.Category==null ))
             {
                 await _productService.Add(productdto);
                 return RedirectToAction(nameof(Index));
@@ -55,46 +55,42 @@ namespace CleanArchMvc.WebUI.Controllers
             }
             return View(productdto);
         }
-        // [HttpGet()]
-        // public async Task<IActionResult> Edit(int? id){
-        //     if(id == null) return NotFound();
-        //     var productdto = await _productService.GetById(id);
-        //     if(productdto == null) return NotFound();
-        //     return View(productdto);
-        // }
-        // [HttpPost()]
-        // public async Task<IActionResult> Edit(ProductDTO productdto)
-        // {
-        //     if(ModelState.IsValid)
-        //     {
-        //         try
-        //         {
-        //             await _productService.Update(productdto);
-        //         }
-        //         catch(Exception)
-        //         {
-        //             throw;
-        //         }
-        //         return RedirectToAction(nameof(Index));
-        //     }
-        //     return View(productdto);
-        // }
+        [HttpGet()]
+        public async Task<IActionResult> Edit(int? id){
+            if(id == null) return NotFound();
+            var productdto = await _productService.GetById(id);
+            if(productdto == null) return NotFound();
+            ViewBag.CategoryId = new SelectList(await _categoryService.GetCategories(), "Id","Name",productdto.CategoryId);
+            return View(productdto);
+        }
+        [HttpPost()]
+        public async Task<IActionResult> Edit(ProductDTO productdto)
+        {
+            if(ModelState.IsValid || (!ModelState.IsValid&&productdto.Category==null ))
+            {
+                await _productService.Update(productdto);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(productdto);
+        }
 
-        // [HttpGet()]
-        // public async Task<IActionResult> Delete(int? id) {
-        //     if(id==null)return NotFound();
-        //     var productdto = await _productService.GetById(id);
-        //     if(productdto==null) return NotFound();
-        //     return View(productdto);
-        // }
-        // //Não é possivel criar outra função com nome Delete e mesmos parametros 
-        // //precisa colocar  ActionName("Delete") para configurar o nome da action para Delete
-        // //Permite especificar um nome da action diferente do nome do metodo
-        // [HttpPost(),ActionName("Delete")]
-        // public async Task<IActionResult> DeleteConfirmed(int id) {
-        //     await _productService.Remove(id);
-        //     return RedirectToAction("Index");
-        // }
+        [HttpGet()]
+        public async Task<IActionResult> Delete(int? id) 
+        {
+            if(id==null)return NotFound();
+            var productdto = await _productService.GetById(id);
+            if(productdto==null) return NotFound();
+            return View(productdto);
+        }
+        //Não é possivel criar outra função com nome Delete e mesmos parametros 
+        //precisa colocar  ActionName("Delete") para configurar o nome da action para Delete
+        //Permite especificar um nome da action diferente do nome do metodo
+        [HttpPost(),ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(int id) 
+        {
+            await _productService.Remove(id);
+            return RedirectToAction("Index");
+        }
 
         // [HttpGet()]
         // public async Task<IActionResult> Details(int? id) {

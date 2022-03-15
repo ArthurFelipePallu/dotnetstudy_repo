@@ -7,6 +7,10 @@ namespace CleanArchMvc.Application.DTOs
 {
     public class ProductDTO
     {
+
+        public Category Category { get; set; }
+
+
         public int Id{get;set;}
 
 
@@ -38,7 +42,6 @@ namespace CleanArchMvc.Application.DTOs
         [DisplayName("Product Image")]
         public string Image { get;  set; }
 
-        public Category Category { get; set; }
 
         
         [DisplayName("Categories")]
