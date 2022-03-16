@@ -12,6 +12,9 @@ using CleanArchMvc.Application.Interfaces;
 using CleanArchMvc.Application.Services;
 using CleanArchMvc.Application.Mappings;
 using MediatR;
+using CleanArchMvc.Infra.Data.Identity;
+using Microsoft.AspNetCore.Identity;
+using CleanArchMvc.Domain.Account;
 
 namespace CleanArchMvc.Infra.IoC
 {
@@ -37,6 +40,18 @@ namespace CleanArchMvc.Infra.IoC
             // HANDLERS
             var myhandlers = AppDomain.CurrentDomain.Load("CleanArchMvc.Application");
             services.AddMediatR(myhandlers);
+
+            //IDENTITIES
+            services.AddIdentity<ApplicationUser,IdentityRole>()
+            .AddEntityFrameworkStores<ApplicationDbContext>()
+            .AddDefaultTokenProviders();
+            services.AddScoped<IAuthenticate,AuthenticateService>();
+            services.AddScoped<ISeedUserRoleInitial,SeedUserRoleInitial>();
+
+            //COOKIES
+            services.ConfigureApplicationCookie(options=>options.AccessDeniedPath="/Account/Login");
+
+
 
             return services;
         }
