@@ -16373,6 +16373,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -16380,11 +16385,6 @@
     {
       "FilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Arthut Pallu\\Documents\\Estudos\\DotNet\\dotnetstudy_repo\\CleanArchMvc.WebUI\\Views\\Account\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Account\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     },
     {

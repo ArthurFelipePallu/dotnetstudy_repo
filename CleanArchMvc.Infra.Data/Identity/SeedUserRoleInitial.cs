@@ -32,7 +32,7 @@ namespace CleanArchMvc.Infra.Data.Identity
             }
         }
 
-        public async void SeedUsers()
+        public void SeedUsers()
         {
             if(_userManager.FindByEmailAsync("usuario@localhost").Result==null)
             {

@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using CleanArchMvc.Infra.Data.Context;
@@ -27,7 +23,13 @@ namespace CleanArchMvc.Infra.IoC
             (configuration.GetConnectionString("DefaultConnection"), // definiu a string de conexão
             b=> b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))); // definiu q a migração vai ficar na pasta..
                                                                                         // ..aonde está definido o arquivo de contexto
-            
+            services.AddIdentity<ApplicationUser,IdentityRole>()
+            .AddEntityFrameworkStores<ApplicationDbContext>()
+            .AddDefaultTokenProviders();
+
+            services.ConfigureApplicationCookie(options=>options.AccessDeniedPath="/Account/Login");
+
+
             //services.AddTransient();   Adciona o serviço sempre que for requisitado
             //services.AddScoped();      Adciona o serviço uma vez por solicitação
             //services.AddSingleton();   Adciona o serviço apenas na primeira vez que for solicitado
@@ -35,6 +37,10 @@ namespace CleanArchMvc.Infra.IoC
             services.AddScoped<IProductRepository,ProductRepository>();
             services.AddScoped<IProductService,ProductService>();
             services.AddScoped<ICategoryService,CategoryService>();
+            services.AddScoped<IAuthenticate,AuthenticateService>();
+           
+            services.AddScoped<ISeedUserRoleInitial,SeedUserRoleInitial>();
+           
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             // HANDLERS
@@ -42,14 +48,10 @@ namespace CleanArchMvc.Infra.IoC
             services.AddMediatR(myhandlers);
 
             //IDENTITIES
-            services.AddIdentity<ApplicationUser,IdentityRole>()
-            .AddEntityFrameworkStores<ApplicationDbContext>()
-            .AddDefaultTokenProviders();
-            services.AddScoped<IAuthenticate,AuthenticateService>();
-            services.AddScoped<ISeedUserRoleInitial,SeedUserRoleInitial>();
+            
+
 
             //COOKIES
-            services.ConfigureApplicationCookie(options=>options.AccessDeniedPath="/Account/Login");
 
 
 

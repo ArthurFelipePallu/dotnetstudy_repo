@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CleanArchMvc.Domain.Account;
 using CleanArchMvc.WebUI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -18,7 +14,7 @@ namespace CleanArchMvc.WebUI.Controllers
 
         [HttpGet]
         public IActionResult Register()
-        {
+         {
             return View();
         }
         [HttpPost]
@@ -65,7 +61,8 @@ namespace CleanArchMvc.WebUI.Controllers
         [HttpGet]
         public async Task<IActionResult> Logout()
         {
-            return View();
+            await _authentication.LogOut();
+            return Redirect("/Account/Login");
         }
 
 
