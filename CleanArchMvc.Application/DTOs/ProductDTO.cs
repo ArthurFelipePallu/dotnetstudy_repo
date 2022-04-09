@@ -1,6 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using CleanArchMvc.Domain.Entities;
 
 namespace CleanArchMvc.Application.DTOs
@@ -8,6 +9,7 @@ namespace CleanArchMvc.Application.DTOs
     public class ProductDTO
     {
 
+        [JsonIgnore]
         public Category? Category { get; set; }
 
 

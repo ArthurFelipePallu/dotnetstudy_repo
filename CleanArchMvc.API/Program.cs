@@ -1,4 +1,9 @@
+using CleanArchMvc.API;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var startup = new StartupAPI(builder.Configuration);
+startup.ConfigureServices(builder.Services);
 
 // Add services to the container.
 
@@ -12,8 +17,12 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>{
+        options.SwaggerEndpoint("/swagger/v1/swagger.json","v1");
+        options.RoutePrefix = string.Empty;
+    });
 }
 
 app.UseHttpsRedirection();
