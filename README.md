@@ -7,3 +7,9 @@ Learning
 - The correct way to Test my projects functionalities
 - etc
 - --Still in the process of learning 
+
+
+
+THIS LEARNING PROJECT WAS COMPLETED SUCCESSFULLY 
+NOW, ON TO PRACTICING WHAT WAS LEARNT
+-------------------------------------------------------------
